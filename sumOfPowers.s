@@ -16,8 +16,8 @@ sumOfPowers:
 
     imul %edx, %eax
     mov $6, %ecx
-    xorl %edx, %edx; 
-    divl %ecx
+    xor %edx, %edx; 
+    div %ecx
 
     pop %rbp
     ret
